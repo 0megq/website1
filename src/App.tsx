@@ -1,11 +1,11 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
 import Dashboard from './Dashboard';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen bg-gray-100">
         <Navbar></Navbar>
         <div className="container mx-auto px-4 py-8">
@@ -15,7 +15,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
