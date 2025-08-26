@@ -7,7 +7,7 @@ export default function Home() {
 			<h2 className="text-4xl font-bold text-lime-900 mb-8">
 				A little about me
 			</h2>
-			<div className="flex space-x-8">
+			<div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
 				<div className="flex-1">
 					<img src={seqImage}></img>
 				</div>
