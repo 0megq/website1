@@ -1,17 +1,26 @@
+import seqImage from "./assets/seq.jpg"
+import ProjectPreview from "./Projects";
 
 export default function Home() {	
 	return (
 		<div>
-			<h1 className="text-4xl font-bold text-blue-600 mb-4">
-				Hello React + Tailwind!
-			</h1>
-			<a href="https://youtu.be/dZ26E_7Hsr8" className="mr-4">This is a link</a>
-			<button className="bg-blue-500 hover:bg-blue-700 hover:text-white text-blue-500 font-bold py-2 px-4 rounded" onClick={() => alert("hello")}>
-				Click me
-			</button>
-			<p className="hover:bg-black">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, alias.
-			</p>
+			<h2 className="text-4xl font-bold text-lime-900 mb-8">
+				A little about me
+			</h2>
+			<div className="flex space-x-8">
+				<div className="flex-1">
+					<img src={seqImage}></img>
+				</div>
+				<div className="flex-1 space-y-4 overflow-visible">
+					<p>Hi! I'm Nick Vatanshenas, a game developer and student studying Computer Science at Irvine Valley College.</p>
+					<p>This is my super fun website :D</p>
+				</div>
+			</div>
+			<hr className="my-5"></hr>
+			<h2 className="text-4xl text-center font-bold text-lime-900 mb-8">
+				Recent Projects
+			</h2>
+			<ProjectPreview id="Toy"></ProjectPreview>
 		</div>
 	);
 }
