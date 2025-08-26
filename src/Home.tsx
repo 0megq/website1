@@ -16,11 +16,24 @@ export default function Home() {
 					<p>This is my super fun website :D</p>
 				</div>
 			</div>
+
 			<hr className="my-5"></hr>
 			<h2 className="text-4xl text-center font-bold text-lime-900 mb-8">
 				Recent Projects
 			</h2>
-			<ProjectPreview id="Toy"></ProjectPreview>
+			<ProjectPreview id="toy"></ProjectPreview>
+
+			<hr className="my-5"></hr>
+			<h2 className="text-2xl font-bold text-lime-900 mb-8">
+				Nick Vatanshenas
+			</h2>
+			<div>
+				<a href="mailto:nvatanshenas55@gmail.com">nvatanshenas55@gmail.com</a>
+			</div>
+			<footer>
+				<p>© BY NICK VATANSHENAS 2025.</p>
+			</footer>
+
 		</div>
 	);
 }

@@ -4,21 +4,21 @@ type Project = {
 	name: string;
 	start: string;
 	end: string;
-	role: string;
+	role: string,
 	preview: string,
 };
 
-type ProjectId ="Toy" | "Dummy";
+type ProjectId ="toy" | "dummy";
 
 const projects: Record<ProjectId, Project> = {
-	"Toy": {
+	"toy": {
 		name: "Trials of Yarbil",
 		start: "June 2025",
 		end: "September 2024",
-		role: "Personal Project on Steam",
+		role: "Solo-developed Steam game",
 		preview: toy,
 	},
-	"Dummy": {
+	"dummy": {
 		name: "",
 		start: "",
 		end: "",
