@@ -29,8 +29,8 @@ export default function Home() {
 			</h2>
 			<div className="space-y-6 justify-between lg:space-y-0 lg:space-x-4 flex flex-col lg:flex-row pr-36">
 				<a className="text-purple-950 hover:text-purple-600 hover:underline" href="mailto:nvatanshenas55@gmail.com">nvatanshenas55@gmail.com</a>
-				<a className="text-purple-950 hover:text-purple-600 hover:underline" href="https://www.github.com/0megq">GitHub</a>
-				<a className="text-purple-950 hover:text-purple-600 hover:underline" href="https://www.linkedin.com/in/nick-vatanshenas-ba0468262/">LinkedIn</a>
+				<a className="text-purple-950 hover:text-purple-600 hover:underline" href="https://www.github.com/0megq" target="_blank">GitHub</a>
+				<a className="text-purple-950 hover:text-purple-600 hover:underline" href="https://www.linkedin.com/in/nick-vatanshenas-ba0468262/" target="_blank">LinkedIn</a>
 			</div>
 			<hr className="my-5"></hr>
 			<footer>
