@@ -7,7 +7,7 @@ export default function Home() {
 			<h2 className="text-4xl font-bold text-lime-900 mb-8">
 				A little about me
 			</h2>
-			<div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+			<div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
 				<div className="flex-1">
 					<img src={seqImage}></img>
 				</div>
@@ -27,7 +27,7 @@ export default function Home() {
 			<h2 className="text-2xl font-bold text-lime-900 mb-8">
 				Nick Vatanshenas
 			</h2>
-			<div className="space-y-6 justify-between sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row">
+			<div className="space-y-6 justify-between lg:space-y-0 lg:space-x-4 flex flex-col lg:flex-row pr-36">
 				<a className="text-purple-950 hover:text-purple-600 hover:underline" href="mailto:nvatanshenas55@gmail.com">nvatanshenas55@gmail.com</a>
 				<a className="text-purple-950 hover:text-purple-600 hover:underline" href="https://www.github.com/0megq">GitHub</a>
 				<a className="text-purple-950 hover:text-purple-600 hover:underline" href="https://www.linkedin.com/in/nick-vatanshenas-ba0468262/">LinkedIn</a>
