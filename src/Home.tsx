@@ -27,23 +27,14 @@ export default function Home() {
 			<h2 className="text-2xl font-bold text-lime-900 mb-8">
 				Nick Vatanshenas
 			</h2>
-			<div className="space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row">
-				<div className="flex-1">
-					<a href="mailto:nvatanshenas55@gmail.com">nvatanshenas55@gmail.com</a>
-				</div>
-				<div className="flex-1 flex flex-col">
-					<a href="https://www.github.com/0megq">GitHub</a>
-					<a href="https://www.linkedin.com/in/nick-vatanshenas-ba0468262/">LinkedIn</a>
-				</div>
-				<div className="flex-1">
-					<p>This</p>
-					<p>is</p>
-					<p>here</p>
-				</div>
+			<div className="space-y-6 justify-between sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row">
+				<a className="text-purple-950 hover:text-purple-600 hover:underline" href="mailto:nvatanshenas55@gmail.com">nvatanshenas55@gmail.com</a>
+				<a className="text-purple-950 hover:text-purple-600 hover:underline" href="https://www.github.com/0megq">GitHub</a>
+				<a className="text-purple-950 hover:text-purple-600 hover:underline" href="https://www.linkedin.com/in/nick-vatanshenas-ba0468262/">LinkedIn</a>
 			</div>
 			<hr className="my-5"></hr>
 			<footer>
-				<p className="text-sm">© BY NICK VATANSHENAS 2025.</p>
+				<p className="text-sm">© By Nick Vatanshenas 2025.</p>
 			</footer>
 
 		</div>
